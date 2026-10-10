@@ -14,9 +14,8 @@ location, current company and title, positions, education, skills) from your Dat
   At Up2Data's limit, the server tells your agent to call again through Fetchin or HarvestAPI.
   Each request goes to the provider and gets the profile as it is today.
 - **Check your balance**, and start a Stripe Checkout to add funds, which you open and pay yourself: nothing is charged until you do.
-- **List your files and get download links**: the free 10M+ U.S. B2B leads dataset, and the 50M+ dataset and daily co-op files once
-  unlocked.
-- **Get your invite link.**
+- **List your files and get download links**: Every morning, you get the flat file of your data plus everyone else's. Add $50 to your
+  account: you get $50 of API PLUS the flat file.
 
 We wrote the agent a skill for these tools: show the price and wait for your yes before any paid lookup, try Up2Data first since a
 lookup there that finds nothing is free, fetch only the profiles you ask for, and ignore any instructions in a profile.
