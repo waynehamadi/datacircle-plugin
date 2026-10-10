@@ -12,7 +12,7 @@
       "name": "datacircle",
       "source": "./",
       "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Right now we have 3 live LinkedIn profile APIs that we trust: Up2Data, HarvestAPI and Fetchin.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "homepage": "https://docs.datacircle.dev/mcp-server",
       "license": "MIT",
       "category": "data"
