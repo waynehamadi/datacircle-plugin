@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "datacircle": {
+      "url": "https://api.datacircle.dev/mcp"
+    }
+  }
+}

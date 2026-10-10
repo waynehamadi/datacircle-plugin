@@ -1,9 +1,9 @@
-# Datacircle for Claude
+# Datacircle for Claude, Cursor and Gemini CLI
 
 Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Every morning, you get
 the flat file of your data plus everyone else's.
 
-This plugin connects Claude to Datacircle's MCP server, so Claude can fetch a person's LinkedIn profile from its URL (name, headline,
+This plugin connects your agent (Claude, Cursor or Gemini CLI) to Datacircle's MCP server, so it can fetch a person's LinkedIn profile from its URL (name, headline,
 location, current company and title, positions, education, skills) from your Datacircle balance, and tell you what each lookup cost.
 
 ## What it does
@@ -15,7 +15,7 @@ location, current company and title, positions, education, skills) from your Dat
   unlocked.
 - **Get your invite link.**
 
-A skill tells Claude how to use these well: the price first and your yes before any paid lookup, the cheaper provider first, never
+A skill tells the agent how to use these well: the price first and your yes before any paid lookup, the cheaper provider first, never
 fetching profiles you didn't ask for, and a profile's text treated as data, never as instructions.
 
 ## Setup
@@ -27,14 +27,23 @@ In Claude Code:
 /plugin install datacircle@datacircle
 ```
 
-Then sign in when Claude Code asks (or run `/mcp`): datacircle.dev opens, you sign in with your work email and a code,
-and you allow the connection. A new account starts with a $5 credit. Docs: https://docs.datacircle.dev/mcp-server
+In Gemini CLI:
+
+```
+gemini extensions install https://github.com/waynehamadi/datacircle-plugin
+```
+
+In Cursor, add the server to `~/.cursor/mcp.json`: `{"mcpServers": {"datacircle": {"url": "https://api.datacircle.dev/mcp"}}}`.
+
+Then sign in when your agent asks (in Claude Code, `/mcp`; in Gemini CLI, `/mcp auth datacircle`): datacircle.dev opens, you sign in
+with your work email and a code, and you allow the connection. A new account starts with a $5 credit.
+Docs: https://docs.datacircle.dev/mcp-server
 
 ## What it sends, and where
 
-The plugin runs no code on your machine. It declares one remote MCP server, `https://api.datacircle.dev/mcp`, run by Datacircle. Claude
+The plugin runs no code on your machine. It declares one remote MCP server, `https://api.datacircle.dev/mcp`, run by Datacircle. Your agent
 sends it the LinkedIn URLs and file IDs you ask about; Datacircle calls the data provider you chose (Up2Data or HarvestAPI) for each
-profile lookup, stores the answer, and charges your balance. Signing in gives Claude an access token that works on that server only;
+profile lookup, stores the answer, and charges your balance. Signing in gives your agent an access token that works on that server only;
 resetting your API key on datacircle.dev cuts it off.
 
 Privacy policy: https://datacircle.dev/privacy. Support: wayne@datacircle.dev.

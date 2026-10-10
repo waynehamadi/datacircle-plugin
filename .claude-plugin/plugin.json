@@ -10,5 +10,12 @@
   },
   "homepage": "https://docs.datacircle.dev/mcp-server",
   "license": "MIT",
-  "keywords": ["b2b-data", "data-enrichment", "linkedin", "lead-generation", "sales"]
+  "keywords": [
+    "b2b-data",
+    "data-enrichment",
+    "linkedin",
+    "lead-generation",
+    "sales"
+  ],
+  "repository": "https://github.com/waynehamadi/datacircle-plugin"
 }
