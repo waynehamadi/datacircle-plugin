@@ -1,0 +1,21 @@
+{
+  "name": "datacircle",
+  "owner": {
+    "name": "Datacircle",
+    "email": "wayne@datacircle.dev"
+  },
+  "metadata": {
+    "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup."
+  },
+  "plugins": [
+    {
+      "name": "datacircle",
+      "source": "./",
+      "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Right now we have 2 live LinkedIn profile APIs that we trust: Up2Data and HarvestAPI.",
+      "version": "1.0.0",
+      "homepage": "https://docs.datacircle.dev/mcp-server",
+      "license": "MIT",
+      "category": "data"
+    }
+  ]
+}
