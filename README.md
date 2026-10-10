@@ -1,5 +1,7 @@
 # Datacircle for Claude, Cursor and Gemini CLI
 
+[![AllMCPs Verified](https://allmcps.com/api/badge/datacircle?style=shield)](https://allmcps.com/mcp/datacircle)
+
 Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Every morning, you get
 the flat file of your data plus everyone else's.
 
