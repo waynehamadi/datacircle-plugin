@@ -1,0 +1,21 @@
+{
+  "name": "datacircle",
+  "owner": {
+    "name": "Datacircle",
+    "email": "wayne@datacircle.dev"
+  },
+  "metadata": {
+    "description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website."
+  },
+  "plugins": [
+    {
+      "name": "datacircle",
+      "source": "./",
+      "description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.",
+      "version": "2.0.0",
+      "homepage": "https://datacircle.dev/docs/mcp",
+      "license": "MIT",
+      "category": "data"
+    }
+  ]
+}

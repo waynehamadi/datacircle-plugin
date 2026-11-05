@@ -1,0 +1,10 @@
+{
+  "name": "datacircle",
+  "version": "2.0.0",
+  "description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.",
+  "mcpServers": {
+    "datacircle": {
+      "httpUrl": "https://api.datacircle.dev/mcp"
+    }
+  }
+}

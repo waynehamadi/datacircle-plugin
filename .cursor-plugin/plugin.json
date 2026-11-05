@@ -1,0 +1,20 @@
+{
+  "name": "datacircle",
+  "version": "2.0.0",
+  "description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.",
+  "author": {
+    "name": "Datacircle",
+    "email": "wayne@datacircle.dev"
+  },
+  "homepage": "https://datacircle.dev/docs/mcp",
+  "repository": "https://github.com/waynehamadi/datacircle-plugin",
+  "license": "MIT",
+  "keywords": [
+    "gtm-apis",
+    "api-comparison",
+    "api-pricing",
+    "benchmark",
+    "mcp"
+  ],
+  "logo": "assets/logo.png"
+}
