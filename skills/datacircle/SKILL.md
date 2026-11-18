@@ -1,6 +1,6 @@
 ---
 name: datacircle
-description: Find the best GTM API for a job, from Datacircle's sheet of every plan of every GTM API: price per 1,000, score, rate limits, speed and the fields it returns. Use when the user asks which API to use, what an API costs, or to compare GTM APIs.
+description: "Find the best GTM API for a job, from Datacircle's sheet of every plan of every GTM API: price per 1,000, score, rate limits, speed and the fields it returns. Use when the user asks which API to use, what an API costs, or to compare GTM APIs."
 ---
 
 # Datacircle
